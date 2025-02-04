@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.section {
+    padding: 60px 0;
+}
+.hidden {
+    display: none;
+}
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
